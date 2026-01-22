@@ -27,7 +27,7 @@ if(NOT raygui_POPULATED)
     add_library(raygui INTERFACE)
     target_include_directories(raygui INTERFACE ${raygui_SOURCE_DIR}/src)
     target_link_libraries(raygui INTERFACE raylib)
-    target_compile_definitions(raygui INTERFACE RAYGUI_IMPLEMENTATION)
+    #target_compile_definitions(raygui INTERFACE RAYGUI_IMPLEMENTATION)
 endif()
 
 set(RAYLIB_VERBOSE OFF)
