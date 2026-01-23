@@ -19,5 +19,6 @@ extern Rectangle filemgr_titlebar_bounds;
 void filemgr_titlebar_init(void);
 void filemgr_titlebar_resize(void);
 void filemgr_titlebar_draw(void);
+bool filemgr_titlebar_hit(Vector2 cursor);
 
 #endif
